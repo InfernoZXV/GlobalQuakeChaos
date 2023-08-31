@@ -30,7 +30,7 @@ public class HypocenterAnalysisSettingsPanel extends SettingsPanel {
     }
 
     private Component createMinStationsSetting() {
-        sliderMinStations = createSettingsSlider(4, 16, 1, 1);
+        sliderMinStations = createSettingsSlider(1, 16, 1, 1);
 
         JLabel label = new JLabel();
 
